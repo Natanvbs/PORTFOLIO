@@ -1,0 +1,394 @@
+* {
+    margin: 0;
+    padding: 0;
+scroll-behavior: smooth;}
+
+body {
+    background-color: #0C1C32;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: italic;
+    color: #F4F4F4;}
+
+header {
+    height: 83px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;}
+
+.espaco {
+    height: 70%;
+    width: 0.2vw;
+    background-color: #0C1C32;
+    opacity: 30%;}
+
+.house {
+    height: 50px;
+    width: 50px;
+    color: #F4F4F4;}
+
+.linkedin {
+    height: 50px;
+    width: 50px;
+    color: #F4F4F4;}
+
+.facebook {
+    height: 50px;
+    width: 50px;
+    color: #F4F4F4;}
+
+.instagram {
+    height: 50px;
+    width: 50px;
+    color: #F4F4F4;}
+
+.github {
+    height: 50px;
+    width: 50px;
+    color: #F4F4F4;}
+
+header a {
+    text-decoration: none;
+    color: #F4F4F4;}
+
+main {width: 100%;
+    background-size: 100%;
+    background-attachment: fixed;}
+
+.Apresentacao {height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: brightness(50%);
+    background-image: url(imagens/istockphoto-1402430797-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;}
+          
+.Apresentacao h1 {font-size: 30px;
+    font-family: "Oswald", arial, sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    justify-content: center;
+    font-family: 'Inter';
+    font-style: italic;}
+          
+.Apresentacao p {color: white;
+    text-align: center;
+    width: 70%;
+    font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    line-height: 1.7;
+    justify-content: center;
+    font-family: 'Inter';
+    font-style: italic;}
+
+.Contact h1{
+    color: #ffffff;
+    margin-left: 440px;
+    margin-top: 130px;
+    font-size: 3.5em;
+    font-family: 'Inter';
+    font-style: italic;}
+    
+.nome label{
+    width: 60%;
+    font-weight: 350;
+    font-family: "PT Serif", serif;
+    color: #ffffff;}
+    
+.nome{
+    display: flex;
+    margin-left: 438px;
+    width: 28%;
+    margin-top: 36px;
+    justify-content: space-between;}
+    
+.linhanome{
+    margin-top: 30px;
+    margin-left: 438px;
+    width: 46.5%;}
+    
+#textonome{
+    width: 50%;
+    border: none;
+    border-bottom: 2px solid #C0F2A9;
+    border-radius: 0;
+    background: none;
+    color: #1C0E04;}
+    
+.email label{
+    width: 50%;
+    font-weight: 350;
+    font-family: "PT Serif", serif;
+    color: #ffffff;}
+    
+.email{
+    display: flex;
+    margin-left: 438px;
+    width: 28%;
+    margin-top: 16px;
+    justify-content: space-between;}
+    
+.linhaemail{
+    margin-top: 30px;
+    margin-left: 438px;
+    width: 46.5%;}
+    
+#textoemail{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #C0F2A9;
+    border-radius: 0;
+    background: none;
+    color: #fffaf7;}
+        
+.email label{
+    width: 50%;
+    font-weight: 350;
+    font-family: "PT Serif", serif;
+    color: #ffffff;}
+
+.menssagem label{
+    width: 50%;
+    font-weight: 350;
+    font-family: "PT Serif", serif;
+    color: #ffffff;}
+
+.menssagem{
+    margin-left: 438px;
+    display: flex;
+    width: 28%;
+    margin-top: 16px;
+    justify-content: space-between;}
+
+.linhamenssagem{
+    margin-top: 20px;
+    margin-left: 438px;
+    width: 46.5%;}
+    
+#textomenssagem{
+    font-family: "PT Serif", serif;
+    font-size: 1em;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #C0F2A9;
+    border-radius: 0;
+    background: none;
+    color: #e7e7e7;}
+
+.botaomsg{
+    margin-left: 438px;
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    place-items: center;}
+
+.btnmsg{
+    background-color: #ffffff;
+    width: 190px;
+    height: 55px;
+    border: none;
+    border-radius: 15px;
+    color: #000000;
+    padding: 15px 30px;
+    font-size: 20px;
+    letter-spacing: .1em;
+    font-family: "PT Serif", serif;
+    font-family: 'Inter';
+    font-style: italic;}
+
+#direitos{
+    text-align: center;
+    height: 160px;
+    background-color: black;}
+
+#direitos p{
+    padding-top: 6vh;
+    color: rgb(117, 117, 117);}
+
+#textomenssagem::placeholder{
+    color: #1C0E04;
+    font-family: "PT Serif", serif;}  
+    
+.projects-title{
+    font-weight: 300;
+    font-size: 30px;
+    display: flex;
+    padding-top: 50px;
+    padding-left: 8%;} 
+
+.projects-site{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    margin: 10PX;
+    padding-bottom: 2vh;}
+    
+.site-01{
+    height: 564px;
+    width: 32%;
+    background-image: url(imagens/img1front.png);
+    justify-content: space-evenly;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 1s;}
+    
+.site-01-div{
+    color: #000000;
+    font-size: 30px;
+    padding-top: 350px;
+    padding-left: 50px;
+    font-family: 'Inter';
+    font-style: italic;}
+    
+.site-01:hover {
+    opacity: 70%;
+    transform: scale(1.05);}
+
+.site-02{
+    height: 564px;
+    width: 32%;
+    background-image: url(imagens/img2front.png);
+    justify-content: space-evenly;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 1s;}
+    
+.site-02:hover {
+    opacity: 70%;
+    transform: scale(1.05);}
+
+.site-03{
+    height: 564px;
+    width: 32%;
+    background-image: url(imagens/img3front.png);
+    justify-content: space-evenly;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 1s;}
+    
+.site-03:hover{
+    opacity: 70%;
+    transform: scale(1.05);}   
+
+.skillstittle{
+    font-weight: 300;
+    font-size: 30px;
+    display: flex;
+    padding-top: 50px;
+    padding-left: 8%;
+    background-color: #0E223F;}
+
+.skills{
+    color: #ffffff;
+    height: 30vh;
+    border: none;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;    
+    font-family: 'Inter';
+    font-style: italic;
+    background-color: #0E223F;}
+      
+.primeira{
+    width: 30%;
+    border-radius: 9px;}
+
+.skills ul{
+    align-items: center;}
+
+.skills li{    
+    background-color: #0C1C32}
+            
+.segunda{
+    width: 30%;
+    border-radius: 9px;}
+
+footer{
+    background-color: #051224;
+    color: #ffffff;
+    display: flex;}
+    
+footer li{
+    list-style: none;}
+    
+.text-footer{
+    padding: 20px;
+    font-size: 15px;
+    width: 70%;}   
+
+.icones-footer{ 
+    display: flex; 
+    width: 15%;
+    padding: 20px;
+    justify-content:space-between;}
+
+body {
+    padding: 25px;
+    background-color: rgb(127, 198, 226);
+    color: rgb(0, 0, 0);
+    font-size: 25px;}
+      
+.dark-mode {
+    background-color: rgb(233, 233, 233);
+    color: rgb(211, 211, 211);}
+
+.button-darkmode{
+    line-height: 1;
+    background-color: rgba(18, 31, 145, 0);
+    padding: 8px 20px;}
+    
+.cursor {
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 50%;
+    background: transparent;
+    pointer-events: none;
+    z-index: 111;
+    border: 4px solid #0e0a0a;
+    transition: all 0.3s ease-out;
+    animation: moveCursor1 .5s infinite alternate;}
+    
+.expand {
+    background: transparent;
+    animation: moveCursor2 .7s forwards;
+    border: 2px solid #f8baba;}
+    
+@keyframes moveCursor1 {
+    from {
+        transform: scale(1);
+        }
+    
+    to {
+        transform: scale(.8);
+        }}
+    
+@keyframes moveCursor2 {
+    0% {
+        transform: scale(1);
+        }
+    
+    50% {
+        transform: scale(2);
+        }
+    
+    100% {
+        transform: scale(1);
+        opacity: 0;
+        }}
