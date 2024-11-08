@@ -64,7 +64,7 @@ main {width: 100%;
     justify-content: center;
     align-items: center;
     backdrop-filter: brightness(50%);
-    background-image: url(imagens/istockphoto-1402430797-612x612.jpg);
+    background-image: url(istockphoto-1402430797-612x612.jpg);
     background-repeat: no-repeat;
     background-size: cover;}
           
@@ -235,7 +235,7 @@ main {width: 100%;
 .site-01{
     height: 564px;
     width: 32%;
-    background-image: url(imagens/img1front.png);
+    background-image: url(img1front.png);
     justify-content: space-evenly;
     align-items: center;
     background-repeat: no-repeat;
@@ -257,7 +257,7 @@ main {width: 100%;
 .site-02{
     height: 564px;
     width: 32%;
-    background-image: url(imagens/img2front.png);
+    background-image: url(img2front.png);
     justify-content: space-evenly;
     align-items: center;
     background-repeat: no-repeat;
@@ -271,7 +271,7 @@ main {width: 100%;
 .site-03{
     height: 564px;
     width: 32%;
-    background-image: url(imagens/img3front.png);
+    background-image: url(img3front.png);
     justify-content: space-evenly;
     align-items: center;
     background-repeat: no-repeat;
